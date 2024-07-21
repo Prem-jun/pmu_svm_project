@@ -38,7 +38,7 @@ jinja2==3.1.4
 joblib==1.4.2 
 jsonargparse==4.32.0
 kiwisolver==1.4.5 
-libffi==3.4.4
+#libffi==3.4.4
 lightning-utilities==0.11.5 
 llvmlite==0.41.1 
 markupsafe==2.1.5 
