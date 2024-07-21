@@ -51,7 +51,7 @@ multimethod==1.9.1
 networkx==3.3 
 numba==0.58.1 
 numpy==1.25.2 
-openssl==3.0.14
+#openssl==3.0.14
 packaging==24.1 
 pandas==2.2.2 
 parso==0.8.4 
@@ -70,7 +70,7 @@ pydantic-core==2.20.1
 pydeprecate==0.3.2 
 pygments==2.18.0 
 pyparsing==3.1.2 
-python==3.10.14
+#python==3.10.14
 python-dateutil==2.9.0.post0 
 python-dotenv==1.0.1 
 pytorch-lightning==1.9.5 
