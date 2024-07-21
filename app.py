@@ -154,13 +154,13 @@ def next_page():
                             model_filename=model_filename)
         # threading.Thread(target=train_and_get_results).start()
         # return render_template('training_in_progress.html')
-@app.route('/download-model/<filename>', methods=['GET'])
+@app.route('/download-model/<path:filename>', methods=['GET'])
 def download_model(filename):
     # Make sure the directory is correct and the file exists
     directory = app.config['MODEL_FOLDER']
     # return send_from_directory("..\\..\\"+directory, filename, as_attachment=True)
-    print("..\\"+directory)
-    return send_from_directory("..\\"+directory, filename, as_attachment=True)
+    # print("..\\"+directory)
+    return send_from_directory(directory=directory, path=filename, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
